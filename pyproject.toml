@@ -1,3 +1,7 @@
+[metadata]
+name = "titantic_classification_model_aa"
+
+
 [build-system]
 requires = [
     "setuptools>=42",
