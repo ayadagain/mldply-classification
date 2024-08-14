@@ -6,7 +6,7 @@ from pathlib import Path
 from setuptools import find_packages, setup
 
 # Package meta-data.
-NAME = "titantic_classification_model"
+NAME = "titantic_classification_model_aa"
 DESCRIPTION = "A package to predict the survivability of a passenger on the Titanic"
 URL = "https://github.com/AlephTaw"
 EMAIL = "16190163+ayadagain@users.noreply.github.com"
