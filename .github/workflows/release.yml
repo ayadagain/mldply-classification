@@ -34,4 +34,4 @@ jobs:
           name: Release ${{ steps.package_version.outputs.content }}
           draft: false
           prerelease: false
-          files: "./titantic_classification/trained_models"
+          files: "./titantic_classification/trained_models/titanic_classification_outpyt_v${{steps.package_version.outputs.content}}.pkl"
