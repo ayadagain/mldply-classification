@@ -2,7 +2,6 @@ name: PyTest Automated Tests
 
 on:
   pull_request:
-  push:
     branches:
       - main
 
