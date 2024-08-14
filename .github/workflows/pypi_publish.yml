@@ -56,7 +56,7 @@ jobs:
       - build
     runs-on: ubuntu-latest
     environment:
-      name: mldply-classification_test
+      name: publish
       url: https://test.pypi.org/p/titantic_classification_model_aa
     permissions:
       id-token: write
