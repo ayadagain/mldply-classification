@@ -1,12 +1,13 @@
 import re
 import typing as t
 from pathlib import Path
+from typing import Any, Union
 
 import joblib
 import numpy as np
 import pandas as pd
 from sklearn.pipeline import Pipeline
-from typing import Any, Union
+
 from titantic_classification import __version__ as _version
 from titantic_classification.config.core import DATASET_DIR, TRAINED_MODEL_DIR, config
 

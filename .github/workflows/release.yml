@@ -25,6 +25,12 @@ jobs:
         uses: juliangruber/read-file-action@v1
         with:
           path: "./titantic_classification/VERSION"
+      - name: Commit the trained model to the repo and push
+        uses: EndBug/add-and-commit@v9
+        with:
+          default_author: github_actions
+          message: "Add trained model for version ${{ steps.package_version.outputs.content }}"
+          add: "titantic_classification/trained_models/titanic_classification_outpyt_v${{steps.package_version.outputs.content}}.pkl"
       - name: Release model
         uses: softprops/action-gh-release@v2
         env:

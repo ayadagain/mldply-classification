@@ -1,6 +1,6 @@
 import pytest
-
 from sklearn.model_selection import train_test_split
+
 from titantic_classification.config.core import config
 from titantic_classification.processing.data_manager import _load_raw_data
 

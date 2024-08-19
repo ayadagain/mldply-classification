@@ -162,5 +162,5 @@ cython_debug/
 
 .idea/
 
-# Pkl files
-*.pkl
+# Mac OS
+*.DS_Store

@@ -1,5 +1,6 @@
 import numpy as np
 from sklearn.metrics import accuracy_score
+
 from titantic_classification import __version__ as _version
 from titantic_classification.predict import make_prediction
 
