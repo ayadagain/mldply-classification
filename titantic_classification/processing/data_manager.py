@@ -42,7 +42,12 @@ def clean_dataset(*, dataframe: pd.DataFrame) -> pd.DataFrame:
     data["fare"] = data["fare"].astype("float")
     data["age"] = data["age"].astype("float")
 
-    data.drop(labels=config.model_config.variables_to_drop, axis=1, inplace=True)
+    data.drop(
+        labels=config.model_config.variables_to_drop,
+        axis=1,
+        inplace=True,
+        errors="ignore",
+    )
     return data
 
 
