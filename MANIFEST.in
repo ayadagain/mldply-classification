@@ -7,12 +7,12 @@ include titantic_classification/datasets/train.csv
 include titantic_classification/datasets/test.csv
 include titantic_classification/VERSION
 include titantic_classification/config.yml
+include titantic_classification/trained_models/*.pkl
 
 include ./requirements/requirements.txt
 include ./requirements/test_requirements.txt
 exclude *.log
 exclude *.cfg
-exclude titantic_classification/trained_models/*.pkl
 
 recursive-exclude * __pycache__
 recursive-exclude * *.py[co]
